@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    
+background: repeating-linear-gradient(to bottom, #FFA500 0px, #FFA500 5px, white 5px, white 10px);
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: lightgreen;
+    text-align: center;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+h2{
+    background-color: white;
+    width: 50%;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: auto;
+}
+
+div{
+    display: block;
+    border-bottom: 100px solid white ;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+h1{
+    background-color:  #FFA500;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h4{
+    background-color: #FFA500;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    border: 5px solid green;
+    margin: 0 auto 0px;
+}
+
+h4::after{
+    content: "-";
+}
+h4::before{
+    content: "-";
+}
+
+img:hover{
+    transform: scale(1.5, 1.5);
+}
+
+div a{
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
